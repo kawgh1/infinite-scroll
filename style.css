@@ -38,3 +38,27 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%); /* this centers in middle of page */
 }
+
+/* image container */
+
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  margin-top: 5px;
+  width: 100%;
+}
+
+/* media queries: large smart phone */
+
+@media screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+}
