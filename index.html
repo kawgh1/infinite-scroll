@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://www.google.com/s2/favicons?domain=jacinto.design"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- example of icon <i class="fab fa-500px"></i> -->
-    <!-- Script -->
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinite Scroll</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jacinto.design" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- example of icon <i class="fab fa-500px"></i> -->
+  <!-- Script -->
+
+  <h1>Unsplash API - Infinite Scroll</h1>
+
+  <!-- loader -->
+  <div class="loader" id="loader" hidden>
+    <img src="ring-loader.svg" alt="loading">
+  </div>
+
+
+  <!-- image container -->
+  <div class="image--container" id="image-container">
+
+    <img
+      src="https://images.unsplash.com/photo-1587502536263-5dda37cd33f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80">
+    <img
+      src="https://images.unsplash.com/photo-1587502536263-5dda37cd33f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80">
+    <img
+      src="https://images.unsplash.com/photo-1587502536263-5dda37cd33f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80">
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
 </html>
